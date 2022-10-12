@@ -4,11 +4,16 @@ import Container from 'react-bootstrap/Container';
 function Header() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Football Fans Feedback</Navbar.Brand>
-        </Container>
-      </Navbar>
+      <Container>
+        <Navbar
+          style={{ marginBottom: '30px', backgroundColor: '#b85042' }}
+          variant="dark"
+        >
+          <Container className="justify-content-center">
+            <Navbar.Brand href="#home">Football Fans Feedback</Navbar.Brand>
+          </Container>
+        </Navbar>
+      </Container>
     </>
   );
 }
